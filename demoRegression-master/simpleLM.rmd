@@ -73,3 +73,21 @@ summary.lm(simp)
 ```
 
 The predicted weight of a bear compared to age has a r squared value of 0.561 and a residual standard error value of 81.47
+
+# CONCLUSION AND RANKING
+
+
+
+With the collected data, I am able to rank the compared weights:
+
+1. Weight~CHEST RSE: 33.08 and ARS: 0.9262
+
+2. Weight~NECK RSE: 43.91 and ARS: 0.87
+
+3. Weight~Length RSE: 61.83 and ARS: 0.7423
+
+4. Weight~Headlen RSE: 67.81 and ARS: 0.69
+
+5. Weight~Headwth RSE: 76.41 and ARS: 0.6064
+
+6. Weight~AGE RSE: 81.47 and ARS: 0.5526
