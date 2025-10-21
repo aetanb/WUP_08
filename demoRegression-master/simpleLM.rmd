@@ -55,3 +55,12 @@ abline(simp)
 summary.lm(simp)
 ```
 The predicted weight of a bear compared to head width has a r squared value of 0.6138 and a residual standar error value of 76.41
+
+```{r}
+simp <- lm(WEIGHT~HEADLEN,data=bears)
+plot(WEIGHT~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+The predicted weight of a bea compared to head length has a r squared value of 0.6959 and a residual standard error of 67.81
