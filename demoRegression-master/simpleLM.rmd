@@ -64,3 +64,12 @@ summary.lm(simp)
 ```
 
 The predicted weight of a bea compared to head length has a r squared value of 0.6959 and a residual standard error of 67.81
+
+```{r}
+simp <- lm(WEIGHT~AGE,data=bears)
+plot(WEIGHT~AGE,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+The predicted weight of a bear compared to age has a r squared value of 0.561 and a residual standard error value of 81.47
